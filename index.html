@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreyash Lohare</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Shreyash Lohare" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shreyash Lohare">Shreyash Lohare</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:shreyash.lohare@research.iiit.ac.in" class="contact-link">shreyash.lohare@research.iiit.ac.in</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 80106-28917" class="contact-link">+91 80106-28917</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-10-16">October 16, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+
+          </li>
+          
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            
+            <div class="contact-info">
+              <p class="contact-title">Education</p>
+              <p class="contact-detail" style="color: white;">IIIT Hyderabad</p>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/shreyash_lohare" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/shreyash-lohare" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shreyash-lohare-178aa6314/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Activity</button>
+          </li>
+          
+          
+        </ul>
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a B.Tech+ MS student pursuing Computer Science at IIIT Hyderabad. Currently exploring various domains in tech while maintaining a balance with my interests in swimming, cricket, and gaming.
+          </p>
+          <p>
+            Member of E-Cell, Gaming Club, and Alumni Cell at IIIT Hyderabad, actively contributing to campus activities and building connections.
+          </p>
+          <p>
+            Passionate about learning and growing in the tech field, with a focus on software development and Machine Learning.
+          </p>
+        </section>
+        <section class="birthplace">
+          <h3 class="h3 birthplace-title">My Birthplace</h3>
+          <div class="birthplace-content">
+            <p>
+              I was born in Nanded, Maharashtra, India. Known for its historical Hazur Sahib Gurudwara, Nanded is a city rich in Sikh heritage, culture, and spiritual significance.
+            </p>
+            <p>
+              The city is home to sacred landmarks like the Sachkhand Hazur Sahib, historic Clock Tower, and the scenic Godavari River. It also serves as an important educational and cultural center in the Marathwada region.
+            </p>
+          </div>
+          <div class="birthplace-photos">
+            <figure>
+              <img src="./assets/images/gurudwara.jpg" alt="Gurudwara" width="300">
+              <figcaption>Gurudwara</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/hill.jpg" alt="Hill Station" width="300">
+              <figcaption>Hill Station</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/clock-tower.jpg" alt="Clock Tower" width="300">
+              <figcaption>Clock Tower</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/Sahasrakund.jpg" alt="Sahasrakund" width="300">
+              <figcaption>Sahasrakund Waterfall</figcaption>
+            </figure><figure>
+              <img src="./assets/images/kandhar.jpg" alt="Kandhar Fort" width="300">
+              <figcaption>Kandhar Fort</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/park.jpg" alt="Visava Park" width="300">
+              <figcaption>Visava Park</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/waterpark.jpg" alt="Waterpark" width="300">
+              <figcaption>Chakur Waterpark</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/Godavari.jpg" alt="Godavari River" width="300">
+              <figcaption>Godavari River</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/images/Mahur.jpg" alt="Mahur Temple" width="300">
+              <figcaption>Mahur Temple</figcaption>
+          </div>
+        </section>
+        <!--
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <div style="display: flex;align-items:center; gap:2rem; justify-content:center;margin-bottom:2rem;">
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-design.svg
+                    " alt="design icon" width="40">
+                  </div>
+                  <h4 class="h4 service-item-title" style="margin: 0px !important;transform:translateY(0.25rem);">Skills</h4>
+                </div>
+                <p class="service-item-text">
+                  <ul class="skills-list content-card">
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">HTML</h4>
+                        <p class="service-item-text">Building the structure of web pages with semantic markup.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">CSS</h4>
+                        <p class="service-item-text">Styling web pages with responsive and modern designs.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">JavaScript</h4>
+                        <p class="service-item-text">Creating dynamic and interactive web experiences.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Python</h4>
+                        <p class="service-item-text">Developing versatile applications and data-driven solutions.</p>
+                      </div>
+                    </li>
+                    
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash Shell logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Bash Shell</h4>
+                      <p class="service-item-text">Automating tasks and managing systems with shell scripting.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                      <h4 class="h4 service-item-title">SQL</h4>
+                      <p class="service-item-text">Querying and managing relational databases efficiently.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="NoSQL logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                      <h4 class="h4 service-item-title">NoSQL</h4>
+                      <p class="service-item-text">Handling unstructured data with NoSQL databases like MongoDB.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">C</h4>
+                        <p class="service-item-text">Developing efficient and low-level system applications.</p>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="service-icon-box">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ logo" width="40">
+                      </div>
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">C++</h4>
+                        <p class="service-item-text">Building high-performance applications with object-oriented programming.</p>
+                      </div>
+                    </li>
+                    
+                    
+                  </ul>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!--
+          - testimonials
+        -->
+        <section class="testimonials">
+        </section>
+        <!--
+          - testimonials modal
+        -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <!-- <ion-icon name="close-outline"></ion-icon> -->
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+              </figure>
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title></h4>
+              <time datetime="2021-06-14"></time>
+            </div>
+          </section>
+        </div>
+        <!--
+          - clients
+        -->
+        <section class="clients">
+          <h3 class="h3 clients-title"></h3>
+          <ul class="clients-list has-scrollbar">
+          </ul>
+        </section>
+      </article>
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">International Institute Of Information Technology Hyderabad</h4>
+              <span>2024 — 2029</span>
+              <p class="timeline-text">
+                B.Tech + MS in Computer Science and Engineering
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Panacea Bellwether International School, Nanded</h4>
+              <span>2022 — 2024</span>
+              <p class="timeline-text">
+                Grade 11 and 12
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Oxford The Global School, Nanded</h4>
+              <span>2012 — 2022</span>
+              <p class="timeline-text">
+                Grade 1 to 10
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Grades</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Semester 1</h4>
+              <span>CGPA - 7.0</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JEE Advanced</h4>
+              <span>Scored 152 marks out of 360</span>
+              <p class="timeline-text">Secured a rank of AIR-8306 all over India.</p>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JEE Mains</h4>
+              <span>Scored 99.7 percentile</span>
+              <p class="timeline-text">Secured a rank of AIR-4806 all over India..</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Class 12th</h4>
+              <span>Scored 96.4% </span>
+              <p class="timeline-text">Achieved good percentage in the 12th-grade board examinations.</p>
+            </li>
+          </ol>
+          <div class="download-cv">
+            <a href="./assets/files/Shreyash_Lohare_CV.pdf" class="btn" download>
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download CV</span>
+            </a>
+          </div>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <div class="skills-wrapper content-card">
+            <div class="skills-row">
+              <div class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Programming Languages</h5>
+                  <data value="90">Proficient</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;"></div>
+                </div>
+                <p class="skill-details" style="color: white;">C++, C (DSA)</p>
+              </div>
+              <div class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="70">Beginner</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+                <p class="skill-details" style="color: white">HTML, CSS, JavaScript, React</p>
+              </div>
+              <div class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend & APIs</h5>
+                  <data value="75">Beginner</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%;"></div>
+                </div>
+                <p class="skill-details" style="color: white;">FastAPI, REST APIs, Jinja</p>
+              </div>
+              <div class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data & Databases</h5>
+                  <data value="65">Beginner</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%;"></div>
+                </div>
+                <p class="skill-details" style="color: white;">Python, NumPy, Pandas, MongoDB, MySQL</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!--
+        - #ACTIVITY
+      -->
+      <article class="activity" data-page="activity">
+        <header>
+          <h2 class="h2 article-title">Activity</h2>
+        </header>
+        <button data-select></button>
+        <section class="text-analysis">
+          <div class="content-card">
+            <h3 class="h3">Text Analysis Tool</h3>
+            <div class="text-input-container">
+              <textarea id="textInput" placeholder="Enter text (minimum 10000 words)" rows="10"></textarea>
+              <button id="analyzeBtn" class="btn">Analyze Text</button>
+            </div>
+            <div class="analysis-results">
+              <div class="result-block">
+                <h4>Basic Statistics</h4>
+                <ul id="basicStats"></ul>
+              </div>
+              <div class="result-block">
+                <h4>Pronouns Count</h4>
+                <ul id="pronounsCount"></ul>
+              </div>
+              <div class="result-block">
+                <h4>Prepositions Count</h4>
+                <ul id="prepositionsCount"></ul>
+              </div>
+              <div class="result-block">
+                <h4>Indefinite Articles Count</h4>
+                <ul id="articlesCount"></ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      
+  </div>  </div>
+  </main>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/text-analysis.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
